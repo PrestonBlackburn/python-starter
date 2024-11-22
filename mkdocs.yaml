@@ -1,0 +1,7 @@
+site_name: "Example Python Project"
+
+nav:
+  - Home: index.md
+
+plugins: 
+  - techdocs-core

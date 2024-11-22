@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "example_project"
+version = "0.0.1"
+description = "An example project"
+readme = "readme.md"
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "black",
+    "pytest",
+    "pytest-cov[all]"
+]
+
+docs = [
+    "mkdocs",
+    "mkdocs-material",
+    "mkdocs-techdocs-core"
+]
